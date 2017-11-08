@@ -1,0 +1,10 @@
+{
+	"SKEY":"6946Q94lm4N68M19XA6M9N02p8IKMg94f1v88483q5noC27TNL8zlxDAi1pI",
+	"MerchantNo":"67001000024",
+	"CallBackUrl":"/res/orderCallBack.php",
+	"bizType":"0",
+	"alog": "md5" ,
+	"orderUrl": "http://www.yeeyk.com/yeex-iface-app/acquiring",
+	"queryUrl": "http://www.yeeyk.com/yeex-iface-app/queryOrder",
+	"UserAgent": "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.1.13) Gecko/20080311 Firefox/2.0.0.13"
+}
