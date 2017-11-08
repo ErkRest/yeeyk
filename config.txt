@@ -1,6 +1,6 @@
 {
-	"SKEY":"6946Q94lm4N68M19XA6M9N02p8IKMg94f1v88483q5noC27TNL8zlxDAi1pI",
-	"MerchantNo":"67001000024",
+	"SKEY":"",
+	"MerchantNo":"",
 	"CallBackUrl":"/res/orderCallBack.php",
 	"bizType":"0",
 	"alog": "md5" ,
