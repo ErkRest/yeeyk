@@ -25,7 +25,7 @@
 		if(!is_file($binDir))	// check dir
 			throw new Exception("include bin ".$binDir." file is not exist", 1);
 
-		require $binDir;
+		include_once $binDir;
 		
 		
 		if(isset($_GET['merchantOrderNo'])){ //使用 GET 傳遞

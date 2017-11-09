@@ -44,15 +44,15 @@
 		if(!is_file($dirname ."/yeeyk/yeeykConfigLoader.php"))
 			throw new Exception("include bin yeeyk/yeeykConfigLoader.php file is not exist", 1);
 
-		require $dirname ."/order/Order.php";
-		require $dirname ."/order/OrderQuery.php";
-		require $dirname ."/order/OrderQueryCallBack.php";
-		require $dirname ."/order/OrderSynchronizationCallback.php";
-		require $dirname ."/order/OrderNonSynchronizationCallback.php";
-		require $dirname ."/yeeyk/yeeyk.php";
-		require $dirname ."/yeeyk/yeeykCard.php";
-		require $dirname ."/yeeyk/yeeykProduct.php";
-		require $dirname ."/yeeyk/yeeykConfigLoader.php";
+		include_once $dirname ."/order/Order.php";
+		include_once $dirname ."/order/OrderQuery.php";
+		include_once $dirname ."/order/OrderQueryCallBack.php";
+		include_once $dirname ."/order/OrderSynchronizationCallback.php";
+		include_once $dirname ."/order/OrderNonSynchronizationCallback.php";
+		include_once $dirname ."/yeeyk/yeeyk.php";
+		include_once $dirname ."/yeeyk/yeeykCard.php";
+		include_once $dirname ."/yeeyk/yeeykProduct.php";
+		include_once $dirname ."/yeeyk/yeeykConfigLoader.php";
 
 	}
 	catch(Exception $e)
